@@ -1,5 +1,8 @@
 # vim-book
 
+VIM - Because you are worth it
+
+
 This book is intended for programmers, system administrators or writers
 that use the tex language.
 
