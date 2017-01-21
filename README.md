@@ -65,6 +65,10 @@ Once you have staged your modifications, just run :Gcommit.
 This will open a new buffer, enter your message, save it and close the buffer
 with `:wq` for instance. This will commit your file.
 
+### Open Github
+If your project is on githun `:Gbrowse` will open your browser on the current 
+file of your project, otherwise...
+
 # Vimscript
 
 # Writing plugins
