@@ -33,6 +33,12 @@ Natively installed.
 ##Windows
 Vi and Vim does not come natively on Windows.
 
+##Useful environment variables
+
+`$VIMRUNTIME`
+If you are on Linux on MacOS, typing `:echo $VIMRUNTIME` will tell you which
+Vim binary your system is currently running. In my case, it gave `/usr/share/vim/vim74`.
+
 #Resources
 A collection of packages:
 http://vimawesome.com/plugin/vim-markdown-sad-beautiful-tragic
@@ -86,7 +92,8 @@ navigate between them conveniently with the keyboard only.
 The command is `<ctrl-w>`, this will allow you to jump from one window to the
 other.
 
-Opening split windows: `sp`. The same window will be split horizontally in two.
+Opening split windows horizontally: `sp`. The same window will be split horizontally in two.
+You can split vertically with `vs`.
 It's very useful if you work on two different parts of the same file and 
 you can't display everything on the same page. For example, if you write a 
 report and want to write on a conclusion while reviewing the introduction.
@@ -94,7 +101,13 @@ report and want to write on a conclusion while reviewing the introduction.
 You can scroll the active window while the other part remains fixed and
 vice-versa.
 
-While in normal mode, you can resize
+It's very useful if you want to keep a folded version of a file and display
+just one unfolded section of it the below window.
+
+A window can be split almost infinitely in a recursive way. Golden section.
+
+While in normal mode, you can resize the active window with the following
+commands:
 
 `<ctrl-w> +`: increases the window height by one row.
 
