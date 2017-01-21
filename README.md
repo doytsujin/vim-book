@@ -1,7 +1,8 @@
 # VIM - Because you are worth it
 
 # Conventions
-
+Markdown reference:
+https://learnxinyminutes.com/docs/markdown/
 # Introduction
 This book is intended for programmers, system administrators or writers
 that use the tex language.
@@ -76,6 +77,8 @@ https://learnxinyminutes.com/docs/vim/
 
 `G` to go to the end of the file
 
+`50%` go to the middle of the file. **Warning: do not type the semi-column :**.
+
 #Buffers
 
 
@@ -109,13 +112,13 @@ A window can be split almost infinitely in a recursive way. Golden section.
 While in normal mode, you can resize the active window with the following
 commands:
 
-`<ctrl-w> +`: increases the window height by one row.
+* `<ctrl-w> +`: increases the window height by one row.
 
-`<ctrl-w> -`: reduces the window height by one column.
+* `<ctrl-w> -`: reduces the window height by one column.
 
-`<ctrl-w> >`: increases the window width by one column.
+* `<ctrl-w> >`: increases the window width by one column.
 
-`<ctrl-w> <`: reduces the window with by one column.
+* `<ctrl-w> <`: reduces the window with by one column.
 
 #Exploring
 ##nrtree
@@ -156,6 +159,8 @@ Edit your .gitconfig file
 Shortly explains git concepts like staging, commit, push, local and remote
 repositories.
 
+More information here: http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners.
+
 ##Git gutter
 git clone https://github.com/airblade/vim-gitgutter`.
 
@@ -167,6 +172,11 @@ Source: https://github.com/tpope/vim-fugitive
 ###Useful commands
 ###Staging 
 Instead of calling `git add %` or `git add <file>`, simply use `:Gwrite`.
+
+###Managing branches
+####Create a new branch
+####Merge branches
+####Delete a branch
 
 ###Revert 
 with `:Gread`.
@@ -206,7 +216,10 @@ http://andrewscala.com/vimscript/
 ##Cheatsheet
 
 ##Commands useful for administrators
+
 Display the number of line in an opened file: `:echo line('$')`.
+
+Working remotely with `ssh` and `scp`.
 
 ##Vim for Python developpers
 
