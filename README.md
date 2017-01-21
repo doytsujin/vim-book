@@ -23,8 +23,10 @@ command line tools, shell window etc...
 They just copy Vim and Emacs. That's why these tools are great. Demonstration done.
 
 
+ Installing
 
-# Installing
+# Resources
+http://vimawesome.com/plugin/vim-markdown-sad-beautiful-tragic
 
 # Editing
 
@@ -32,21 +34,22 @@ They just copy Vim and Emacs. That's why these tools are great. Demonstration do
 
 # Tabs
 
-Folding
+# Folding
+help
+command is z
+the mnemonic, look a z like a something that can expand and retract, like
+a spring.
 http://vimcasts.org/episodes/how-to-fold/
 
 # Using Git
 
 # Vimscript
 
+# Writing plugins
 
-Writing plugins
-###############
+## Choosing a plugin management system
 
-Choosing a plugin management system
-=
+# TMux
 
-TMux
-====
-Installation
-Configuration
+##Installation
+##Configuration
