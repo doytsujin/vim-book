@@ -23,37 +23,56 @@ command line tools, shell window etc...
 They just copy Vim and Emacs. That's why these tools are great. Demonstration done.
 
 
- Installing
+#Installion and configuration
+##Linux
+Is natively installed.
 
-# Resources
+##MacOS
+Natively installed.
+
+##Windows
+Vi and Vim does not come natively on Windows.
+
+#Resources
 http://vimawesome.com/plugin/vim-markdown-sad-beautiful-tragic
 
-# Editing
+#Editing
+$ : go to end of line
+0 : go to the beginning of line
 
-# Window system
+#Window system
 
-# Tabs
+#Tabs
 
-# Folding
+#Folding
 help
 command is z
 the mnemonic, look a z like a something that can expand and retract, like
 a spring.
 http://vimcasts.org/episodes/how-to-fold/
 
-# Using Git
+#Look and feel customization
+Color schemes
+Fonts
 
-Edit you .gitconfig file
+#Using Git
+
+Edit your .gitconfig file
     `:e ~/.gitconfig`
 
-## Git refresher
+##Git refresher
+Shortly explains git concepts like staging, commit, push, local and remote
+repositories.
 
-## Fugitive
+##Git gutter
+git clone https://github.com/airblade/vim-gitgutter`.
+
+##Fugitive
 Source: https://github.com/tpope/vim-fugitive
 
-## Installation
+##Installation
 
-### Useful commands
+###Useful commands
 ###Staging 
 Instead of calling `git add %` or `git add <file>`, simply use `:Gwrite`.
 
@@ -61,21 +80,21 @@ Instead of calling `git add %` or `git add <file>`, simply use `:Gwrite`.
 with `:Gread`.
 
 ###Commit
-Once you have staged your modifications, just run :Gcommit.
+Once you have staged your modifications, just run `:Gcommit`.
 This will open a new buffer, enter your message, save it and close the buffer
-with `:wq` for instance. This will commit your file.
+with `:wq` for instance. This will commit your file in your local repository.
 
-### Open Github
-If your project is on githun `:Gbrowse` will open your browser on the current 
+###Open Github
+If your project is on github `:Gbrowse` will open your browser on the current 
 file of your project, otherwise...
 
-# Vimscript
+#Vimscript
 
-# Writing plugins
+#Writing plugins
 
-## Choosing a plugin management system
+##Choosing a plugin management system
 
-# TMux
+#TMux
 
 ##Installation
 
