@@ -36,7 +36,24 @@ Vi and Vim does not come natively on Windows.
 #Resources
 http://vimawesome.com/plugin/vim-markdown-sad-beautiful-tragic
 
+#Vim modes
+Normal mode
+Insert mode
+Visual mode
+...
+
 #Editing
+
+`h` move left one character
+
+`l` move right one character
+
+`j` move one line down
+
+`k` move one line up
+
+`w` move one word right
+
 `$` to go to end of line
 
 `0` to go to the beginning of line
