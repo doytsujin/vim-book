@@ -209,16 +209,34 @@ Searching branches, tags and commits.
 
 Searching for text in a commit message.
 
-###Further readings
-
 ###Open Github
 If your project is on github `:Gbrowse` will open your browser on the current 
 file of your project, otherwise...
 
+###Further readings
+
 #Vimscript
+What is Vimscript. Why and how we should use it?
 
 ##Variables
 http://andrewscala.com/vimscript/
+
+* `let`:...
+* `unlet`:...
+* `unlet!`:...
+
+By default, all variables are global if it is initially defined outside a
+function. Otherwise it is local to the function.
+
+You can explicitly scope a function by prepending a specific prefix to their
+name:
+* `g:var`: global
+* `a:var`: function argument
+* `l:var`: local to a function
+* `b:var`: local to a buffer
+* `w:var`: local to a window
+* `t:var`: local to a tab
+* `v:var`: predefined by Vim
 
 ##Data types
 
