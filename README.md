@@ -189,6 +189,28 @@ Once you have staged your modifications, just run `:Gcommit`.
 This will open a new buffer, enter your message, save it and close the buffer
 with `:wq` for instance. This will commit your file in your local repository.
 
+###Exploring the history of a git respository
+Explain what is the **Quickfix list**.
+
+
+* `:Glog`: loads all previous revisions of the **current** file into the quickfix list
+* `:Glog -10`: loads the last 10 previous revisions of the **current** file
+* `:Glog -10 --reverse`: loads the last 10 previous revisions of the **current** file in the reverse order
+
+Browsing past commits
+* `:Glog --`: ...
+* `:Glog -- %`: ...
+
+Searching the working tree with `Ggrep`: this command is a wrapper to `git grep`.
+
+* `:Ggrep`
+
+Searching branches, tags and commits.
+
+Searching for text in a commit message.
+
+###Further readings
+
 ###Open Github
 If your project is on github `:Gbrowse` will open your browser on the current 
 file of your project, otherwise...
