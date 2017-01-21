@@ -47,7 +47,14 @@ Edit you .gitconfig file
 :e ~/.gitconfig
 
 Usefull commands:
-Instead of calling `git add %` or `git add <file>`, simply use `:Gwrite`.
+Staging: Instead of calling `git add %` or `git add <file>`, simply use `:Gwrite`.
+
+Revert with :Gread
+
+Commit: once you have staged your modifications, just run :Gcommit.
+This will open a new buffer, enter your message, save it and close the buffer
+with `:wq` for instance. This will commit your file.
+
 
 # Vimscript
 
