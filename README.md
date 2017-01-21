@@ -35,6 +35,9 @@ Vi and Vim does not come natively on Windows.
 
 #Resources
 http://vimawesome.com/plugin/vim-markdown-sad-beautiful-tragic
+https://learnxinyminutes.com/docs/vim/
+Vim's internal documentation: http://vimdoc.sourceforge.net/htmldoc/usr_41.html
+IBM's tutorial on Vim Scripting: http://www.ibm.com/developerworks/linux/library/l-vim-script-1/index.html
 
 #Vim modes
 Normal mode
@@ -43,6 +46,7 @@ Visual mode
 ...
 
 #Editing
+https://learnxinyminutes.com/docs/vim/
 
 `h` move left one character
 
@@ -124,6 +128,15 @@ file of your project, otherwise...
 
 #Vimscript
 
+##Variables
+http://andrewscala.com/vimscript/
+
+##Data types
+
+##Loops and conditionals
+
+##Functions
+
 #Writing plugins
 
 ##Choosing a plugin management system
@@ -133,3 +146,7 @@ file of your project, otherwise...
 ##Installation
 
 ##Configuration
+
+#Gems
+##Cheatsheet
+
