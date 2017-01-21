@@ -256,6 +256,13 @@ Color scheme for Sublime users.
  
 ##How to create a color scheme
 
+#Commentary
+Use vim-commentary. Will detect the type of the file and add the corresponding commentary.
+
+* `gc {motion}`: comment or uncomment lines that motion moves over
+* `gcc`: comment or uncomment [count] lines
+* {Visual}gc`: comment or uncomment the hightligted lines
+
 #Using Git
 
 Edit your .gitconfig file
