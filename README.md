@@ -43,6 +43,12 @@ http://vimcasts.org/episodes/how-to-fold/
 
 # Using Git
 
+Edit you .gitconfig file
+:e ~/.gitconfig
+
+Usefull commands:
+Instead of calling `git add %` or `git add <file>`, simply use `:Gwrite`.
+
 # Vimscript
 
 # Writing plugins
@@ -52,4 +58,5 @@ http://vimcasts.org/episodes/how-to-fold/
 # TMux
 
 ##Installation
+
 ##Configuration
