@@ -34,9 +34,13 @@ Natively installed.
 Vi and Vim does not come natively on Windows.
 
 #Resources
+A collection of packages:
 http://vimawesome.com/plugin/vim-markdown-sad-beautiful-tragic
+
 https://learnxinyminutes.com/docs/vim/
+
 Vim's internal documentation: http://vimdoc.sourceforge.net/htmldoc/usr_41.html
+
 IBM's tutorial on Vim Scripting: http://www.ibm.com/developerworks/linux/library/l-vim-script-1/index.html
 
 #Vim modes
@@ -66,16 +70,17 @@ https://learnxinyminutes.com/docs/vim/
 
 `G` to go to the end of the file
 
-#Window system
+#Window management
 
-#Tabs
+While in normal mode, you can resize
 
-#Folding
-help
-command is z
-the mnemonic, look a z like a something that can expand and retract, like
-a spring.
-http://vimcasts.org/episodes/how-to-fold/
+`<ctrl-w> +`: increases the window height by one row.
+
+`<ctrl-w> -`: reduces the window height by one column.
+
+`<ctrl-w> >`: increases the window width by one column.
+
+`<ctrl-w> <`: reduces the window with by one column.
 
 #Exploring
 ##nrtree
