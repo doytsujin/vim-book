@@ -79,6 +79,9 @@ https://learnxinyminutes.com/docs/vim/
 
 `50%` go to the middle of the file. **Warning: do not type the semi-column :**.
 
+You can access all the motion help by typing `:h up-down-motions`.
+
+
 #Buffers
 
 
