@@ -1,1 +1,42 @@
 # vim-book
+
+This book is intended for programmers, system administrators or writers
+that use the tex language.
+
+You have many choices when you start programming and the easy to start
+is using and IDE. For example, if you are a Python programmer, you
+may want to use Jetbrains Pycharm. That's an awesome product. 
+Jetbrains will target each type of language with a separate IDE. It means
+that if you want to switch from Python to Javascript, then you need another
+IDE.
+
+Vim is the master of all trades. Basically, you can use Vim to master all kinds
+of tasks ranging from basic workflow edition for content writers,
+advanced programming, network administration etc...
+
+In some way, all modern IDEs will provide you with Docker integration, ssh
+command line tools, shell window etc...
+
+They just copy Vim and Emacs. That's why these tools are great. Demonstration done.
+
+
+
+Installing
+##########
+
+
+Using Git
+#######
+
+Vimscript
+##########
+
+
+Writing plugins
+###############
+
+Choosing a plugin management system
+=
+
+TMux
+====
