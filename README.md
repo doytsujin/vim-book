@@ -232,3 +232,7 @@ How to configure Vim for data analysts.
 
 ##Vim for Javascript developpers
 How to configure Vim for Javascript and Node.js developpers.
+
+##Vim for Docker
+
+##Vim for Nginx
