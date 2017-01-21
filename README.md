@@ -70,7 +70,29 @@ https://learnxinyminutes.com/docs/vim/
 
 `G` to go to the end of the file
 
+#Buffers
+
+
 #Window management
+
+Q: what is the difference with buffers? Can I work on the same file with buffers
+as I would do with windows?
+
+Windows are views on the same file.
+
+The most important thing to know before working with Vim windows is how to 
+navigate between them conveniently with the keyboard only.
+
+The command is `<ctrl-w>`, this will allow you to jump from one window to the
+other.
+
+Opening split windows: `sp`. The same window will be split horizontally in two.
+It's very useful if you work on two different parts of the same file and 
+you can't display everything on the same page. For example, if you write a 
+report and want to write on a conclusion while reviewing the introduction.
+
+You can scroll the active window while the other part remains fixed and
+vice-versa.
 
 While in normal mode, you can resize
 
@@ -168,4 +190,5 @@ http://andrewscala.com/vimscript/
 
 #Gems
 ##Cheatsheet
-
+##Commands useful for administrators
+Display the number of line in an opened file: `:echo line('$')`.
