@@ -202,6 +202,17 @@ http://andrewscala.com/vimscript/
 ##Configuration
 
 #Gems
+
 ##Cheatsheet
+
 ##Commands useful for administrators
 Display the number of line in an opened file: `:echo line('$')`.
+
+##Vim for Python developpers
+
+How to configure Vim like a Python IDE.
+##Vim for data analysts
+How to configure Vim for data analysts.
+
+##Vim for Javascript developpers
+How to configure Vim for Javascript and Node.js developpers.
