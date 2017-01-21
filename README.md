@@ -3,6 +3,7 @@
 # Conventions
 Markdown reference:
 https://learnxinyminutes.com/docs/markdown/
+
 # Introduction
 This book is intended for programmers, system administrators or writers
 that use the tex language.
@@ -28,6 +29,15 @@ What will be covered in this book:
 * Customizing and Extending Vim
 
 Learn how to be a better developper by using better tools.
+
+##Why this book
+It took me time to collect enough resources and understanding to put all the pieces I knew about Vim together.
+
+The book I read where much too long and did not help me to start using Vim efficiently. We know the learning curve is steep, some say it's more like a wall than a slope. So this book is itended to give you all you need to use Vim quickly in an efficient way if you are a programmer or text writer.
+
+The idea is to help you master the basics of Vim, understand how you can use Git, the command line, Docker, use resources on the network without leaving Vim. Because, this the key point if you want to be more productive.
+
+Once this step (waypoint) is reached, you will want to understand Vim deeper, and want to program it in order to make it suit all your needs. At this point, you will enjoy working with the keyboard only, having a clear map of all the keys etc... in your mind.
 
 #What is Vi ? what is Vim?
 
@@ -138,7 +148,41 @@ https://learnxinyminutes.com/docs/vim/
 
 `50%` go to the middle of the file. **Warning: do not type the semi-column :**.
 
+
+`H` – Move cursor to highest (top) line in file.
+`M` – Move cursor to middle line in file.
+`L` – Move cursor to lowest (bottom) line in file.
+
+`w` – Move forward a word.
+`#w` – Move forward a number of words. For example, 2w moves forward two words.
+`b` – Move back a word.
+`#b` – Move back a number of words. For example, 3b moves back three words.
+`e` – Move to end of the current word.
+
 You can access all the motion help by typing `:h up-down-motions`.
+
+#Copying and pasting
+
+Vi refers to the act of copying as “yanking.”
+
+`v` – Press v and move the cursor to select a section of text.
+`y` – Copy (yank) the selected text.
+`p` – Paste at cursor.
+`x` – Cuts the selected text. Cuts the character under the cursor if no text is selected
+`r` – Type r and then type another character to replace the character under the cursor.
+
+##Repeat and undo
+
+`u` – Undo.
+`.` – The `.` repeats the last full command.  The insert command also functions as a command here. For example, type iunicorn and press Escape. You can then use the `.` key to insert the word unicorn at the cursor.
+
+#Search and replace
+
+* `/<text>`: search forward 
+* `?`: search backwards
+* `f`: ...
+* `F`: ...
+* `%`: jump between the nearest (), {} or [] characters on the line
 
 
 #Buffers
