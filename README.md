@@ -1,8 +1,8 @@
-# vim-book
+# VIM - Because you are worth it
 
-VIM - Because you are worth it
+# Conventions
 
-
+# Introduction
 This book is intended for programmers, system administrators or writers
 that use the tex language.
 
@@ -24,15 +24,20 @@ They just copy Vim and Emacs. That's why these tools are great. Demonstration do
 
 
 
-Installing
-##########
+# Installing
 
+# Editing
 
-Using Git
-#######
+# Window system
 
-Vimscript
-##########
+# Tabs
+
+Folding
+http://vimcasts.org/episodes/how-to-fold/
+
+# Using Git
+
+# Vimscript
 
 
 Writing plugins
@@ -43,3 +48,5 @@ Choosing a plugin management system
 
 TMux
 ====
+Installation
+Configuration
