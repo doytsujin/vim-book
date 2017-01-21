@@ -37,8 +37,13 @@ Vi and Vim does not come natively on Windows.
 http://vimawesome.com/plugin/vim-markdown-sad-beautiful-tragic
 
 #Editing
-$ : go to end of line
-0 : go to the beginning of line
+`$` to go to end of line
+
+`0` to go to the beginning of line
+
+`gg` to go to the beginning of the file
+
+`G` to go to the end of the file
 
 #Window system
 
@@ -51,6 +56,18 @@ the mnemonic, look a z like a something that can expand and retract, like
 a spring.
 http://vimcasts.org/episodes/how-to-fold/
 
+#Exploring
+##nrtree
+Native Vim system.
+
+`:Explore`
+
+`:SExplore`
+
+`:VExplore`
+
+##NERDTree
+
 #Look and feel customization
 Color schemes
 Fonts
@@ -58,7 +75,7 @@ Fonts
 #Using Git
 
 Edit your .gitconfig file
-    `:e ~/.gitconfig`
+`:e ~/.gitconfig`
 
 ##Git refresher
 Shortly explains git concepts like staging, commit, push, local and remote
