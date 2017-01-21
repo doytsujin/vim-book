@@ -23,10 +23,65 @@ command line tools, shell window etc...
 
 They just copy Vim and Emacs. That's why these tools are great. Demonstration done.
 
+What will be covered in this book:
+* basic motions and command
+* Customizing and Extending Vim
 
-#Installion and configuration
+Learn how to be a better developper by using better tools.
+
+#What is Vi ? what is Vim?
+
+##In the beginning there was Vi
+Vim is a **modal** editor. 
+
+There is nothing more faster than navigating with the keyboard, except voice maybe.
+
+Text-objects and motions.
+
+Vim is no vintage, it's not like Pong.
+
+
+##Then came Vim
+Vim stands for Vi Improved. According to the official website:
+Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems. Vim is distributed free as charityware. 
+Quote from
+http://www.vim.org/
+
+It was written by Bram Moolenar and first released publicly in 1991.
+
+Basically, Vim can be run from a command line interface and as a standalone application in a graphical user interface (See Vim on Windows and MacVim on MacOS).
+
+The wholes story started when Bram Moolenar bought an Amiga computer. On Amiga, the only editor installed was a clone of Vi, called Stevie (https://en.wikipedia.org/wiki/Stevie_(text_editor)). Stevie standed for ST Editor for VI Enthusiasts and was created by Steve Thompson on June 28, 1987. You can go to its page here: http://nosuch.com/tjt/stevie/.
+
+###Vim today and the future
+Unlike any other clones of Vi, Vim is still actively developped by a large base of contributors. New features are still being developped and added every year, making it even more powerful. Besides that, the number of Vim plugins is rapidly growing.
+
+At the moment, Vim 7.4 is the last stable version.
+
+###Further readings
+Source: https://medium.com/@jovica/the-history-of-vim-b707758fb54f#.8teveltxy.
+##And other clones
+
+##Who uses Vim?
+Great developpers, example of Damian Conway, in the Perl community.
+
+* Damian Conway
+* Pascal Precht: https://pascalprecht.github.io/2014/03/18/why-i-use-vim/. Quote: "Once you get used to it, you don't want to work without it anymore". 
+
+
+Image: Vim learning curve.
+
+###My collection of tools
+* MacBook pro
+* oh-my-zsh
+* iTerm2
+* Vim
+
+#Installation and configuration
+We will cover the main three operating systems on which you will find Vim installed.
+
 ##Linux
-Is natively installed.
+On Linux, whatever the distribution, Vi and Vim are natively installed.
 
 ##MacOS
 Natively installed.
@@ -41,6 +96,10 @@ If you are on Linux on MacOS, typing `:echo $VIMRUNTIME` will tell you which
 Vim binary your system is currently running. In my case, it gave `/usr/share/vim/vim74`.
 
 #Resources
+
+A big reference, Damian Conway:
+https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup
+
 A collection of packages:
 http://vimawesome.com/plugin/vim-markdown-sad-beautiful-tragic
 
