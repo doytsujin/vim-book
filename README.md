@@ -95,8 +95,22 @@ Native Vim system.
 ##NERDTree
 
 #Look and feel customization
+If the native look and feel of Vim is rather sad, you can change it easily.
+A list of installed color schemes can be found here (TODO).
+Then, `:colorscheme <scheme_name>` will change the current color scheme.
+
+If you want to use this scheme permanently, just add it to your configuration
+file, `.vimrc`, in our case:
+
+`:let colorscheme <scheme_name>`.
+
+
 Color schemes
 Fonts
+
+Color scheme for Sublime users.
+ 
+##How to create a color scheme
 
 #Using Git
 
