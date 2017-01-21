@@ -46,12 +46,15 @@ http://vimcasts.org/episodes/how-to-fold/
 Edit you .gitconfig file
     `:e ~/.gitconfig`
 
-Usefull commands:
-Staging: Instead of calling `git add %` or `git add <file>`, simply use `:Gwrite`.
+## Useful commands
+###Staging 
+Instead of calling `git add %` or `git add <file>`, simply use `:Gwrite`.
 
-Revert with `:Gread`.
+###Revert 
+with `:Gread`.
 
-Commit: once you have staged your modifications, just run :Gcommit.
+###Commit
+Once you have staged your modifications, just run :Gcommit.
 This will open a new buffer, enter your message, save it and close the buffer
 with `:wq` for instance. This will commit your file.
 
