@@ -328,6 +328,9 @@ If your project is on github `:Gbrowse` will open your browser on the current
 file of your project, otherwise...
 
 ###Further readings
+We can also use the package Clam if we want to fire shell commands directly
+from within Vim.
+https://github.com/sjl/clam.vim.git
 
 #Vimscript
 What is Vimscript. Why and how we should use it?
