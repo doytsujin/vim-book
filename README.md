@@ -226,6 +226,10 @@ commands:
 
 * `<ctrl-w> <`: reduces the window with by one column.
 
+###Further reading
+Plugin to resize windows using navigation keys `h`, `j`, `k`, `l`. Launch with `ctrl+E` or `:WinResizerStartResize`.  
+https://github.com/simeji/winresizer
+
 #Exploring
 ##nrtree
 Native Vim system.
@@ -365,7 +369,6 @@ name:
 ##Configuration
 
 #Gems
-
 ##Cheatsheet
 
 ##Commands useful for administrators
