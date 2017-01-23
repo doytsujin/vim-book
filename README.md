@@ -16,6 +16,8 @@ that if you want to switch from Python to Javascript, then you need another
 IDE.
 
 Vim is the master of all trades. Basically, you can use Vim to master all kinds
+Dim 22 jan 17:04:19 2017
+Dim 22 jan 17:04:30 2017
 of tasks ranging from basic workflow edition for content writers,
 advanced programming, network administration etc...
 
@@ -110,6 +112,9 @@ Vim binary your system is currently running. In my case, it gave `/usr/share/vim
 A big reference, Damian Conway:
 https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup
 
+To understand autocommand:
+http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file
+
 A collection of packages:
 http://vimawesome.com/plugin/vim-markdown-sad-beautiful-tragic
 
@@ -118,6 +123,8 @@ https://learnxinyminutes.com/docs/vim/
 Vim's internal documentation: http://vimdoc.sourceforge.net/htmldoc/usr_41.html
 
 IBM's tutorial on Vim Scripting: http://www.ibm.com/developerworks/linux/library/l-vim-script-1/index.html
+
+On VimL see, Benjamin Klein, The VimL Primer: Edit Like a Pro with Vim Plugins and Scripts, on Kindle.
 
 #Vim modes
 Normal mode
