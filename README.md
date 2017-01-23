@@ -124,7 +124,7 @@ Vim's internal documentation: http://vimdoc.sourceforge.net/htmldoc/usr_41.html
 
 IBM's tutorial on Vim Scripting: http://www.ibm.com/developerworks/linux/library/l-vim-script-1/index.html
 
-On VimL see, Benjamin Klein, The VimL Primer: Edit Like a Pro with Vim Plugins and Scripts, on Kindle.
+On **VimL** see, Benjamin Klein, The VimL Primer: Edit Like a Pro with Vim Plugins and Scripts, on Kindle.
 
 #Vim modes
 Normal mode
