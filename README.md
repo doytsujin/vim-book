@@ -128,6 +128,8 @@ On **VimL** see, Benjamin Klein, The VimL Primer: Edit Like a Pro with Vim Plugi
 
 #Vim modes
 Normal mode
+:q
+:q
 Insert mode
 Visual mode
 ...
