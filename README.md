@@ -196,7 +196,7 @@ Vi refers to the act of copying as “yanking.”
 ###Search a pattern in all files
 VERY USEFUL: example search a pattern in all js files:
 
-    `:vimgrep /pg/ *.js`
+    :vimgrep /pg/ *.js
 
 Source: http://vim.wikia.com/wiki/Find_in_files_within_Vim
 
