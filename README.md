@@ -193,9 +193,11 @@ Vi refers to the act of copying as “yanking.”
 * `F`: ...
 * `%`: jump between the nearest (), {} or [] characters on the line
 
+###Search a pattern in all files
+VERY USEFUL: example search a pattern in all js files:
+:vimgrep /pg/ *.js
 
 #Buffers
-
 
 #Window management
 
